@@ -26,3 +26,15 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
+
+#References
+
+- https://www.reddit.com/r/css/comments/s63rl2/vintage_images_using_css/
+  Posted by u/codingainp
+
+- https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+
+- Design idea influenced from
+  https://youtu.be/FHb9JobDs2o
+  HTML CSS Resume | Beginner Project
+  WEB CIFAR
