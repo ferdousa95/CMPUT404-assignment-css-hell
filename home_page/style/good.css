@@ -1,0 +1,154 @@
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #fff;
+    --text-color: #727171;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 50%;
+}
+
+.profile_image {
+    width: 40%;
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: #f3f2f0;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.profile {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+
+.profile_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.profile_name {
+    color: #195cc0;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 5rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+
+.profile_title {
+    color: rgb(34, 33, 33);
+    font-weight: 100;
+    font-size: 2em;
+    padding-top: 1em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.downloadBtn {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: aqua;
+}
+
+.downloadBtn.hover {
+    color: #195cc0;
+}
+
+.history_list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+
+}
+
+.title {
+    color: #195cc0;
+    font-size: 1.5rem;
+    font-weight: 2rem;
+    text-transform: uppercase;
+    padding-top: 2em;
+}
+
+.tab-title {
+    color: #393a3b;
+    font-size: 1rem;
+    font-weight: 2rem;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+.employer-paragraph {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    line-height: 2;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20em;
+    right: 10px;
+    background: #5f5c5c;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #793006;
+}
+
+.main {
+    margin-left: 140px;
+    /* Same width as the sidebar + left position in px */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
